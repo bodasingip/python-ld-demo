@@ -1,5 +1,5 @@
 name: Find LaunchDarkly flag code references
-on: push
+on: 
   push:
     branches-ignore:
       - 'dependabot/**'
