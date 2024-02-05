@@ -1,5 +1,8 @@
 name: Find LaunchDarkly flag code references
 on: push
+  push:
+    branches-ignore:
+      - 'dependabot/**'
 # cancel in-flight workflow run if another push was triggered
 concurrency:
 group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
