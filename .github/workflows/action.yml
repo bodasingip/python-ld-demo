@@ -17,4 +17,4 @@ steps:
   uses: launchdarkly/find-code-references@v2.11.2
   with:
     accessToken: ${{ secrets.LD_ACCESS_TOKEN }}
-    projKey: YOUR_PROJECT_KEY
+    projKey: rp-eap-test-project
