@@ -4,10 +4,12 @@ from ldclient import Context
 from ldclient.config import Config
 
 # Set sdk_key to your LaunchDarkly SDK key before running
-sdk_key = "sdk-78ede243-f829-4c0a-8ed1-2c0e92892246"
+# sdk_key = "sdk-78ede243-f829-4c0a-8ed1-2c0e92892246"
+sdk_key = "sdk-09738248-291d-4c1a-9aa2-4a9d077775ee"
+
 
 # Set feature_flag_key to the feature flag key you want to evaluate
-feature_flag_key = "textReturn"
+feature_flag_key = "contextAdd"
 
 def show_message(s):
   print("*** %s" % s)
